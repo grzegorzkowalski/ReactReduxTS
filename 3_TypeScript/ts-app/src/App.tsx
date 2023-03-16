@@ -5,6 +5,7 @@ import artist from "./date/artist";
 import fruits from "./date/fruits";
 import logo from './logo.svg';
 import './App.css';
+import ColorQuiz from "./components/ColorQuiz";
 
 function App() {
     // console.log(add(2,3), Person, Grzegorz);
@@ -46,11 +47,13 @@ function App() {
         height: "200px",
         backgroundColor: "green"
     }} />
+
     return (
     <div className="App">
       <header className="App-header">
-          <img src={imageUrl} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="logo" />
           <Quiz />
+          <ColorQuiz />
           {/*<h1>{numberA + numberB}</h1>*/}
         {/*<h2>Mam: {new Date().getFullYear() - birthDate}</h2>*/}
         {/*<ul>*/}
@@ -62,9 +65,9 @@ function App() {
         {/*{element}*/}
         {/*<p>{fruits.length}</p>*/}
         {/*<p>{fruits.join("-")}</p>*/}
-          {
-              [redDiv, blueDiv, greenDiv]
-          }
+        {/*  {*/}
+        {/*      [redDiv, blueDiv, greenDiv]*/}
+        {/*  }*/}
       </header>
     </div>
   );
