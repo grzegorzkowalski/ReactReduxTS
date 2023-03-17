@@ -10,6 +10,10 @@ import menu from "./date/menu";
 import CurrencyConverter from "./components/CurrencyConverter";
 import Clock from "./components/Chapter08/Clock";
 import Box from "./components/Chapter08/Box";
+import ShowUserFunc from "./components/Chapter09/ShowUserFunc";
+import CrazyDiv from "./components/Chapter09/CrazyDiv";
+import Buttons from "./components/Chapter09/Buttons";
+import ButtonCounter from "./components/Chapter10/ButtonCounter";
 
 function App() {
     return (
@@ -26,7 +30,11 @@ function App() {
           {/*<AddNumbers numberA={12} numberB={12} />*/}
           {/*<CurrencyConverter from="EUR" to="USD" value={200} rate={1.12275} />*/}
           <Clock />
-          <Box />
+          {/*<Box />*/}
+          <ShowUserFunc name="Grzegorz" surname="Kowalski" />
+          <CrazyDiv />
+          <Buttons />
+          <ButtonCounter />
       </header>
     </div>
   );
