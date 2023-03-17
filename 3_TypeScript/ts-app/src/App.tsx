@@ -9,6 +9,7 @@ import './App.css';
 import menu from "./date/menu";
 import CurrencyConverter from "./components/CurrencyConverter";
 import Clock from "./components/Chapter08/Clock";
+import Box from "./components/Chapter08/Box";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
           {/*<AddNumbers numberA={12} numberB={12} />*/}
           {/*<CurrencyConverter from="EUR" to="USD" value={200} rate={1.12275} />*/}
           <Clock />
+          <Box />
       </header>
     </div>
   );
